@@ -5,8 +5,13 @@ A simple calculator application that can perform all basic mathematical function
 
 Following are some of the operations that this application performs.
 
-1. Addition
-2. Subtraction
-3. Multiplication
-4. Division
-5. 
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* Power
+* Modulus
+* Factorial
+* GCD
+* SquareRoot 
+* Trignomertic Functions
