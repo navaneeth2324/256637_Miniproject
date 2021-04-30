@@ -19,4 +19,4 @@ Following are some of the operations that this application performs.
     * Cosine(x)
     * Tangent(x)
 
-Steps to run
+
