@@ -15,3 +15,6 @@ Following are some of the operations that this application performs.
 * GCD
 * SquareRoot 
 * Trignomertic Functions
+    * Sin(x)
+    * Cosine(x)
+    * Tangent(x)

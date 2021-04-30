@@ -5,7 +5,6 @@ print("--------------------Simple Calculator------------------")
 
 
 while True:
-
     print("0.Exit")
     print("1.Add")
     print("2.Subtract")
@@ -16,7 +15,7 @@ while True:
     print("7.Factorial")
     print("8.GCD")
     print("9.SquareRoot(a)^(1/2)")
-    print("10.Trignometric angles")
+    print("10.Trignometric Functions")
 
     choice = input("Enter choice: ")
 
@@ -61,6 +60,8 @@ while True:
         elif choice == '9':
             f.findsqroot()
         
+        elif choice == '10':
+            f.trignometry()
             
         
     else:

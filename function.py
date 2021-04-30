@@ -48,4 +48,9 @@ def findsqroot():
     print("Square root({})=".format(num),int(math.sqrt(num)))
 
 def trignometry():
-    print("1.Sine(x)")
+    while True:
+        print("****************************")
+        deg=float(input("Enter degree:"))
+        print("Sine({})".format(deg),math.sin(math.radians(deg)))
+        print("Cosine({})".format(deg),math.cos(math.radians(deg)))
+        print("Tan({})".format(deg),math.tan(math.radians(deg)))
