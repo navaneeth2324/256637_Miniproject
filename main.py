@@ -1,5 +1,59 @@
 import math
-import function as f
+def add():
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    print(num1, "+", num2, "=",num1+num2)
+    
+
+# This function subtracts two numbers
+def subtract():
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    print(num1, "-", num2, "=", num1- num2)
+
+# This function multiplies two numbers
+def multiply():
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    print(num1, "*", num2, "=", num1*num2)
+
+# This function divides two numbers
+def divide():
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    print(num1, "/", num2, "=", num1 / num2)
+
+# This function calculates poer of 2 numbers
+def power():
+    num1 = float(input("Enter a: "))
+    num2 = float(input("Enter b: "))
+    print(num1, "^", num2, "=",num1**num2)
+
+def modulus():
+    num1 = float(input("Enter a: "))
+    num2 = float(input("Enter b: "))
+    print(num1, "%", num2, "=",math.fmod(num1, num2))
+
+def fact():
+    num=float(input("Enter number to find its factorial:"))
+    print(num, "!" "=",math.factorial(num))
+
+def findgcd():
+    num1=int(input("Enter first number:"))
+    num2=int(input("Enter second number:"))
+    print("GCD({},{}) =".format(num1,num2),math.gcd(num1, num2))
+
+def findsqroot():
+    num=int(input("Enter number to find its square root:"))
+    print("Square root({})=".format(num),int(math.sqrt(num)))
+
+def trignometry():
+    while True:
+        print("****************************")
+        deg=float(input("Enter degree:"))
+        print("Sine({})".format(deg),math.sin(math.radians(deg)))
+        print("Cosine({})".format(deg),math.cos(math.radians(deg)))
+        print("Tan({})".format(deg),math.tan(math.radians(deg)))
 
 print("--------------------Simple Calculator------------------")
 
@@ -27,41 +81,41 @@ while True:
             exit()
 
         elif choice == '1':
-            f.add()
+            add()
 
         elif choice == '2':
-           f.subtract()
+           subtract()
            
 
         elif choice == '3':
-            f.multiply()
+            multiply()
             
 
         elif choice == '4':
-            f.divide()
+            divide()
             
         
         elif choice == '5':
-            f.power()
+            power()
             
 
         elif choice == '6':
-            f.modulus()
+            modulus()
             
     
         elif choice == '7':
-            f.fact()
+            fact()
             
         
         elif choice == '8':
-            f.findgcd()
+            findgcd()
             
         
         elif choice == '9':
-            f.findsqroot()
+            findsqroot()
         
         elif choice == '10':
-            f.trignometry()
+            trignometry()
             
         
     else:
