@@ -39,9 +39,9 @@ def fact():
     print(num, "!" "=",math.factorial(num))
 
 def findgcd():
-    num1=int(input("Enter first number:"))
-    num2=int(input("Enter second number:"))
-    print("GCD({},{}) =".format(num1,num2),math.gcd(num1, num2))
+    n1=int(input("Enter first number:"))
+    n2=int(input("Enter second number:"))
+    print("GCD({},{}) =".format(n1,n2),math.gcd(n1, n2))
 
 def findsqroot():
     num=int(input("Enter number to find its square root:"))
