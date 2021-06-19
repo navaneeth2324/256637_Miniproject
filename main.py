@@ -59,17 +59,17 @@ print("--------------------Simple Calculator------------------")
 
 
 while True:
-    print("0.Exit")
-    print("1.Add")
-    print("2.Subtract")
-    print("3.Multiply")
-    print("4.Divide")
-    print("5.Power(a^b)")
-    print("6.Modulus(a%\\b)")
-    print("7.Factorial")
-    print("8.GCD")
-    print("9.SquareRoot(a)^(1/2)")
-    print("10.Trignometric Functions")
+    print("0. Exit")
+    print("1. Add")
+    print("2. Subtract")
+    print("3. Multiply")
+    print("4. Divide")
+    print("5. Power(a^b)")
+    print("6. Modulus(a%\\b)")
+    print("7. Factorial")
+    print("8. GCD")
+    print("9. SquareRoot(a)^(1/2)")
+    print("10. Trignometric Functions")
 
     choice = input("Enter choice: ")
 
